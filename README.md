@@ -6,7 +6,7 @@ Created by: lucifer
 
 ## Play the web version
 
-Open `index.html` in a browser, or enable GitHub Pages on this repository (Settings → Pages → Deploy from branch → main) and open the Pages link.
+Open `index.html` in a browser, or open the public link https://aditya95595.github.io/SignalMaster/ — GitHub Pages is enabled on this repository (Settings → Pages → Deploy from branch → main) and serves the v43 build. The game is now at v43.
 
 No login is needed. Each player runs their own solo copy.
 
@@ -26,6 +26,8 @@ No login is needed. Each player runs their own solo copy.
 
 To install it in Roblox Studio: create a ScreenGui, add a LocalScript inside it, paste the file, press Ctrl+S, then Play and prove Map 1 end to end. Saving and publishing are done in Studio. No login is built into the game, and no audio, Robux or DataStore IDs are invented in the file.
 
+`roblox/signal_master_v43_ready.lua` is the v43-ready Luau file (Maps 1-3, TS2-style). It has not yet been Play-tested in Roblox Studio — see the install notes in `roblox/signal_master_v43_ready_README.md`.
+
 ## Status
 
-The web version in `index.html` is a snapshot of the latest shared build. The game logic is still being fixed and proven map by map — Map 1 (5/5 arrivals) and Map 2 loop mechanics are the current proven baseline.
+The web version in `index.html` is the v43 build (a snapshot of the latest shared build). The game logic is still being fixed and proven map by map — Map 1 (5/5 arrivals) and Map 2 loop mechanics are the current proven baseline.
